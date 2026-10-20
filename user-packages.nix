@@ -3,12 +3,14 @@
 {
   users.users.raider.packages = with pkgs; [
     firefox
+    distrobox
 
     git
     github-cli
 
     android-studio
     obsidian
+    mullvad-vpn
   ];
 
   environment.gnome.excludePackages = with pkgs; [
